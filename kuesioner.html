@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PT DUNIA BARUSA</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Slider CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <style type="text/css">
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
+
+</head>
+
+<body class="body-bg-primary">
+    <!-- Navbar -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-2">
+                            <div class="logo">
+                                <a href="#"><img src="img/rsz_icon-left-font-monochrome-white.png" alt="logo" height="25px"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-10 clearfix text-right">
+                            <div class="collapse navbar-collapse" id="navbarResponsive">
+                                <ul class="navbar-nav ml-auto text-right">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="produk.html">Produk</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="kuesioner.html">Kuesioner</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- Header -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="py-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4 class="text-center">Silahkan Isi Kuesioner Anda!</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form id="myForm" method="POST" action="https://formspree.io/sahlan.nasution07@gmail.com" onsubmit="openModal()">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner1">Bagaimana kualitas pelayanan karyawan terhadap pelanggan selama
+                            bekerja?</label>
+                        <select class="form-control" name="kuesioner1">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner2">Bagaimana ketersediaan fasilitas bengkel toyota dari perusahaan untuk
+                            pelanggan?</label>
+                        <select class="form-control" name="kuesioner2">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner3">Bagaimana kebersihan ruang tunggu yang tersedia di perusahaan? </label>
+                        <select class="form-control" name="kuesioner3">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner4">Bagaimana kepuasan pelanggan terhadap waktu tunggu yang disediakan oleh
+                            perusahaan sesuai dengan
+                            harapan? </label>
+                        <select class="form-control" name="kuesioner4">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner5">Bagaimana kepuasan terhadap kemudahan akses pelanggan terhadap
+                            informasi
+                            perusahaan? </label>
+                        <select class="form-control" name="kuesioner5">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kuesioner6">Apakah pelanggan merasa puas terhadap pelayanan petugas dalam melayani
+                            servis
+                            di bengkel toyota?
+                        </label>
+                        <select class="form-control" name="kuesioner6">
+                            <option value="">--- Pilih ---</option>
+                            <option value="Sangat Puas">Sangat Puas</option>
+                            <option value="Puas">Puas</option>
+                            <option value="Kurang Puas">Kurang Puas</option>
+                            <option value="Tidak Puas">Tidak Puas</option>
+                            <option value="Sangat Tidak Puas">Sangat Tidak Puas</option>
+                        </select>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
+                        <button type="button" class="btn btn-danger" onclick="location.href='index.html'">BATAL</button>
+                    </div>
+
+                    <br>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Terimakasih Sudah Mengisi Kuesioner Anda!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Apakah Anda Yakin Dengan Jawaban Anda?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">TIDAK</button>
+                        <button type="button" class="btn btn-primary">YA</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+$('#myForm').on('submit', function(e){
+    $('#myModal').modal('show');
+    e.preventDefault();
+});
+</script>
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
